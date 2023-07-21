@@ -39,13 +39,13 @@ public class InputState : MonoBehaviour
         var state = buttonsStates[key];
         if(state.value && !value)
         {
-            Debug.Log("Button" + key +" has been released");
+           // Debug.Log("Button" + key +" has been released");
             state.holdTime = 0;
         }
         else if(state.value && value)
         {
             state.holdTime = state.holdTime + Time.deltaTime;
-            Debug.Log("Button" + key + " has been pressed for" + state.holdTime);
+            //Debug.Log("Button" + key + " has been pressed for" + state.holdTime);
             
         }
         state.value = value;
