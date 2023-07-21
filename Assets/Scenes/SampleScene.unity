@@ -371,18 +371,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputs:
-  - axisName: Horizental
+  - axisName: Horizontal
     offvlue: 0
     button: 0
-  - axisName: Horizental
+    condition: 0
+  - axisName: Horizontal
     offvlue: 0
     button: 1
+    condition: 1
   - axisName: Vertical
     offvlue: 0
     button: 2
+    condition: 0
   - axisName: Vertical
     offvlue: 0
     button: 3
+    condition: 1
 --- !u!4 &1451828109
 Transform:
   m_ObjectHideFlags: 0
